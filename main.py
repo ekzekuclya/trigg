@@ -15,7 +15,7 @@ async def main():
     from tg.handlers.post import router
     # bot = Bot(token="8091789023:AAHDvYm08g8kAbauGN5eATubQuNwImg88xg")
     # bot = Bot(token="7247759023:AAER3nI6wzzD_ijJ9qY3WAWogPm_62vGcd8")
-    bot = Bot(token="7808157266:AAFBSa7E3tFdR1iuL4IN7waryDXYPJO6UC4")
+    bot = Bot(token="7517207036:AAEnmCL5CAD4G6T9pG6AtdzilkDbZZjewTI")
     dp = Dispatcher(storage=MemoryStorage())
 
     dp.include_routers(router)
